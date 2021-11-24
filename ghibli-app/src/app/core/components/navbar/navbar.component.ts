@@ -13,6 +13,7 @@ export class NavbarComponent implements OnInit {
     this.imgLogo="./assets/logo.png";
   }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+  }
 
 }
