@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./description.component.scss']
 })
 export class DescriptionComponent implements OnInit {
-  public title: string;
+  public title : string;
   public imgGhibli: string;
 
   constructor() {
