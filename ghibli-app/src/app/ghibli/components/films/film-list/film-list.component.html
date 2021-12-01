@@ -10,7 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let film of films; index as i">
+      <tr *ngFor="let film of films; index as i" (click)="mostrar(film)">
         <th scope="row">{{ i + 1 }}</th>
         <td>{{ film.title }}</td>
         <td>{{ film.originalFullTitle }}</td>

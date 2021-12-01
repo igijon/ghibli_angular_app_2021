@@ -19,7 +19,8 @@ export class Film {
       obj['species'],
       obj['locations'],
       obj['vehicles'],
-      obj['url']
+      obj['url'],
+      '../../assets/filmDefault.jpeg' //Esto de momento lo dejamos fijo, posteriormente como el API no nos lo proporciona, lo cargaremos de otro API,
     )
   }
 
@@ -40,7 +41,8 @@ export class Film {
     public species: string[],
     public locations: string[],
     public vehicles: string[],
-    public url: string
+    public url: string,
+    public img: string
   ) {}
 
   get originalFullTitle() {
